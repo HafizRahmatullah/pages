@@ -1,0 +1,36 @@
+/* Animation Classes */
+.animate-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.animate-btn {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease 0.3s;
+}
+
+/* Keyframe Animations */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.floating {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Project Card Hover Animation */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
