@@ -234,9 +234,9 @@ fetch('footer.html')
     });
 
 
-const toggleButton = document.querySelector('.menu-toggle');
-  const navLinks = document.querySelector('.nav-links');
+const toggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
 
-  toggleButton.addEventListener('click', () => {
+  toggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
