@@ -118,14 +118,14 @@ section {
 /* Navigation */
 #navbar {
     background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     transition: var(--transition);
     height: auto;
-    min-height: 80px;
+    min-height: 90px;
 }
 
 #navbar.scrolled {
